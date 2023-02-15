@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root {
+    --main-bg-color: rgb(255, 255, 255);
+    --main-accent: rgb(252, 23, 111);
+  }
+body{
+    background-color: #f6f3e7;
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+}
+.heroHeader{
+    background-position: 50% 0%;
+    background-image: url("photos/bruce-mars-pFyKRmDiWEA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: grid;
+    grid-template-rows: 1fr 11fr;
+    margin: 0px;
+}
+.header{
+    align-items: center;
+    background-color: #f6f3e7;
+    display: flex;
+    justify-content: space-between;
+    filter: drop-shadow(0px 4px 1px #2222223d);
+}
+.header button{
+    background-color: var(--main-accent);
+    border: none;
+    color: white;
+    height: 100%;
+    font-size: 2vh;
+}
+.logo{
+    display: flex;
+    height: 4vh;
+    justify-content: center;
+    margin-left: 2vw;
+}
+.logoImg{
+    height: 100%;
+}
+.navbarElements{
+    color: rgb(58, 58, 58);
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2vw;
+}
+.navbarElements li{
+    border-radius: 5%;
+    margin: 0px 2px;
+    padding: 0px 10px;
+    font-weight: bold;
+    font-size: 2vh;
+}
+.callToAction{
+    grid-row: 2/2;
+    display: grid;
+    align-items: center;
+    display: grid;
+}
+.mainCall{
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0px 4px 1px #222222);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7vh;
+    font-weight: bold;
+    padding:0vw 15vw 10vw 5vw;
+    text-align: center;
+    width: 50vw;
+}
+.callToActionAlt{
+    color:var(--main-accent);
+}
+.missionStatement{
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-color: #a5a5a51c;
+    height: 60vh;
+    justify-content: space-between;
+    padding: 3vh;
+
+}
+.missionPic{
+    background-position: 50% 0%;
+    width: 25vw;
+    background-image: url("photos/krakenimages-4l8UH4G2_Dg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 2vw;
+
+}
+.missionText{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+    width: 50vw;
+    flex-direction: column;
+    padding: 0px 12vw 10vh 0px;
+}
+.missionText h1{
+    color: var(--main-accent);
+    font-size: 6vh;
+    margin: 0px;
+}
+.missionText h2{
+    font-size: 2vh;
+}
+.philosophy{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+}
+.philosophyText h2{
+    color: var(--main-accent);
+    font-size: 4vh;
+    margin: 4vh 0px 5vh 0px;
+}
+.philosophySections{
+    display: flex;
+    gap: 20vh;
+    text-align: center;
+}
+.philSection{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 25vh;
+}
+.philSection h2{
+    font-size: 2.75vh;
+    margin: 1vh 0px .25vh 0px;
+}
+.philSection p{
+    font-size: 1.5vh;
+    margin: .5vh 0px 0vh 0px;
+}
+.svgPhil
+{
+    height: 10vh;
+}
+.svgPhil2 {
+    height: 9vh;
+    padding-bottom: 1vh;
+}
+
+.transformations{
+    display: flex;
+    background-color: rgba(172, 172, 172, 0.342);
+    height: 75vh;
+    flex-direction: column;
+    align-items: center;
+}
+.transformationsText{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40vw;
+}
+.transformationsText h2{
+    color: var(--main-accent);
+    font-size: 4vh;
+    margin: 4vh 0px 0px 0px;
+}
+.transformations p{
+    color: #000000;
+    font-size: 2vh;
+    margin: 1vh 0px 2vh 0px;
+}
+.transformPicSec{
+    justify-content: center;
+    display: flex;
+    gap: 3vh;
+}
+.transformPicSec p{
+    color: var(--main-accent);
+}
+.indTransform{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20vw;
+}
